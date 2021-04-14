@@ -1,0 +1,72 @@
+:root {
+    --table-size: 30rem;
+    --font-size: 1.5rem;
+}
+  
+  table {
+    width: var(--table-size);
+    height: var(--table-size);
+    margin: auto;
+    border-collapse: collapse;
+    font-size: var(--font-size);
+  }
+  
+  td,
+  th {
+    border: 1px solid;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: calc(var(--table-size) / 3);
+    max-width: calc(var(--table-size) / 3);
+    max-height: calc(var(--table-size) / 3);
+    overflow: hidden;
+    cursor: pointer;
+  }
+  td:hover{
+      background-color: gray;
+  }
+  
+  th {
+    background: yellow;
+  }
+  
+  th div {
+    color: red;
+  }
+.square {
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    font-size: small;
+}
+div#who {
+  position: absolute !important;
+  left: 90% !important;
+  top: 1% !important;
+}
+
+.blue{
+  background-color: #0d6efd;
+}
+
+.yellow {
+  background-color: gold;
+}
+
+.path{
+  background-color: pink !important;
+}
+
+.pathNum {
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    font-size: small;
+}
